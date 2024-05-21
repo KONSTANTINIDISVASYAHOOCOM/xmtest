@@ -1,0 +1,435 @@
+/* Styles for XM Zero Swaps */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('files\\background-gradient.png');
+    color: #333;
+}
+
+.header {
+    background-color: #000;
+    padding: 10px 20px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo img {
+    height: 40px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #000;
+    background-image: url('files\\hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.hero__title {
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: none;
+}
+
+.hero__subtitle {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.hero__cta {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.hero__demo {
+    margin-top: 10px;
+}
+
+.crypto-prices {
+    margin-bottom: 20px;
+}
+
+.crypto-prices__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.trade-benefits {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.trade-benefits__title {
+    font-family: none;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 200;
+}
+
+.trade-benefits__items__right {
+    float: right;
+    width: 50%
+}
+
+.trade-benefits__items__left {
+    float: left;
+    width: calc(50% - 20px);
+}
+
+.trade-benefits__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.trade-benefits__item {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.trade-benefits__item-title {
+    border-bottom: 1px solid green;
+    padding-bottom: 5px;
+}
+
+.trade-benefits__item__first {
+    height: 410px;
+}
+
+.trade-benefits__item__third {
+    float: left;
+    width: 40%;
+    height: 200px;
+}
+
+.trade-benefits__item__forth {
+    width: 40%;
+    float: right;
+}
+
+.trade-benefits__icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.event-gallery {
+    padding: 20px;
+    background-color: lightgray;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+.event-gallery__title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.event-gallery__items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.event-gallery__item {
+    background-color: #e9ecef;
+    width: calc(25% - 10px);
+    height: 150px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0px;
+}
+
+.footer__top {
+    border-bottom: 1px solid #444;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+}
+
+.footer__slogan {
+    font-size: 4em;
+    margin: 0;
+    margin-bottom: 20px;
+    float: left;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.footer__slogansmall {
+    font-size: 10px;
+}
+
+.footer__features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer__feature {
+    max-width: 250px;
+    margin-bottom: 20px;
+    float: left;
+    display: inline-block;
+}
+
+.footer__feature__logo {
+    width: 50px;
+    display: inline-block;
+    float: left;
+}
+
+.footer__feature-title {
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__feature-text {
+    text-align: left;
+}
+
+.footer__subbottom {
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.footer__logos img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.footer__link {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 10px;
+    color: grey;
+}
+
+.footer__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.footer__logo {
+    max-height: 40px;
+}
+
+.footer__links {
+    margin-bottom: 20px;
+}
+
+
+.footer__separator {
+    color: #fff;
+}
+
+.footer__social {
+    margin-bottom: 20px;
+    font-size: 10px;
+    color: grey;
+}
+
+.footer__social-link {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.footer__trading-point {
+    margin-top: 20px;
+}
+
+.footer__trading-point-logo {
+    max-height: 40px;
+}
+
+.red {
+    color: red !important;
+}
+
+.crypto-prices__item {
+    background-color: #262626;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+    flex: 1;
+    max-width: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.crypto-prices__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.crypto-prices__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.crypto-prices__name {
+    font-size: 1em;
+    margin: 0;
+}
+
+.crypto-prices__symbol {
+    background-color: lightyellow;
+    color: #000;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-left: auto;
+    font-size: 0.8em;
+}
+
+.crypto-prices__price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.crypto-prices__change {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.crypto-prices__change--positive {
+    color: #28a745;
+}
+
+.crypto-prices__change--negative {
+    color: #dc3545;
+}
+
+.crypto-prices__arrow {
+    margin-left: 5px;
+    font-size: 1em;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .header__nav {
+        display: none;
+    }
+
+    .crypto-prices__container {
+        flex-wrap: wrap;
+    }
+
+    .crypto-prices__item {
+        flex: 0 0 calc(33.33% - 20px);
+    }
+
+    .trade-benefits__items__left, .trade-benefits__items__right {
+        float: none;
+        width: 100%;
+    }
+
+    .footer__feature {
+        float: none;
+        width: 100%;
+    }
+
+    .footer__slogan {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__nav {
+        display: none;
+    }
+
+    .crypto-prices__container {
+        flex-direction: column;
+    }
+
+    .crypto-prices__item {
+        flex: 0 0 100%;
+    }
+
+    .trade-benefits__items__left, .trade-benefits__items__right {
+        float: none;
+        width: 100%;
+    }
+
+    .footer__feature {
+        float: none;
+        width: 100%;
+    }
+
+    .footer__slogan {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+}
